@@ -1,0 +1,30 @@
+// BNSF Bootstrap Theme
+
+@import url("//fonts.googleapis.com/css?family=Roboto");
+
+.container {
+  background-color: @brand-white;
+}
+
+.navbar {
+  .container {
+    background: transparent;
+  }
+  .navbar-brand {
+    color: @brand-orange;
+    font-weight: bold;
+    &:hover {
+      color: @brand-white;
+      background-color: darken(@brand-orange, 7%);
+    }
+  }
+}
+
+.navbar-default {
+  background-image: -webkit-linear-gradient(top, lighten(@brand-black, 5%) 0%, darken(@brand-black, 5%) 100%);
+  background-size: 100%;
+}
+
+.bnsf-orange {
+  color: @brand-orange;
+}
