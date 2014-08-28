@@ -6,9 +6,10 @@
   background-color: @brand-white;
 }
 
+// nav bar style overrides
 .navbar {
   .container {
-    background: transparent;
+    background: transparent; // need this to undo the overzealous container bg-color for navbars
   }
   .navbar-brand {
     color: @brand-orange;
@@ -20,11 +21,37 @@
   }
 }
 
+// navbar gradient background
 .navbar-default {
   background-image: -webkit-linear-gradient(top, lighten(@brand-black, 5%) 0%, darken(@brand-black, 5%) 100%);
   background-size: 100%;
 }
 
-.bnsf-orange {
+// some helper classes
+.brand-orange-text {
   color: @brand-orange;
+}
+
+.brand-orange-bg {
+  background-color: @brand-orange;
+}
+
+.brand-white-text {
+  color: @brand-white;
+}
+
+.brand-white-bg {
+  background-color: @brand-white;
+}
+
+.brand-off-white-text {
+  color: @brand-off-white;
+}
+
+.brand-off-white-bg {
+  background-color: @brand-off-white;
+}
+
+.clear-bg {
+  background-color: transparent;
 }
