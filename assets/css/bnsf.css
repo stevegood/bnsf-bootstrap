@@ -1,6 +1,6 @@
 body{padding-top:50px}
 .page-header h1{font-size:4em}
-.bs-docs-section{margin-top:8em}
+.bs-docs-section{margin-top:2em}
 .bs-component{position:relative}
 .bs-component .modal{position:relative;top:auto;right:auto;left:auto;bottom:auto;z-index:1;display:block}
 .bs-component .modal-dialog{width:90%}
